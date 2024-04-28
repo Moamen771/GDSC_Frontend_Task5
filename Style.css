@@ -1,0 +1,121 @@
+/* template no.1 */
+
+.parent .child span {
+    color: red;
+}
+
+.parent span {
+    color: blue;
+}
+
+.template1 p,
+.title {
+    color: green;
+}
+
+/* template no.2 */
+
+.template2 div {
+    background-color: rgb(182, 18, 18);
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    margin: 5px;
+    margin-top: 20px;
+    max-width: 400px;
+    padding: 10px 20px;
+    width: max-content;
+    height: 50px;
+    overflow: hidden;
+}
+
+.t4 span {
+    background-color: rgb(0, 82, 205);
+}
+
+/* template no.3 */
+
+.template3 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#p1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#p2 {
+    font-family: "cairo", sans-serif;
+    font-weight: 700;
+}
+
+#p3 {
+    font-family: "jomhuria", sans-serif;
+    font-weight: 400;
+}
+
+/* template no.4 */
+
+.template4 {
+    background-color: rgb(223, 223, 223);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.template4 div {
+    background-color: rgb(195, 195, 195);
+    text-align: center;
+    padding: 5px;
+    float: left;
+}
+
+.fullwidth {
+    width: calc(100% - 40px);
+    margin: 15px;
+}
+
+.third {
+    width: calc(100% /3 - 30px);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.half {
+    width: calc(100% /2 - 32px);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.fourth {
+    width: calc(100% /4 - 28px);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+/* template no.5 */
+
+.template5 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.template5 div {
+    background-color: gray;
+    padding: 5px 30px;
+    margin: auto 100px 15px;
+}
+
+#One {
+    background: rgba(128, 128, 128, 0.1)
+}
+
+#Two {
+    opacity: .1;
+}
